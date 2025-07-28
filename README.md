@@ -32,37 +32,37 @@ An AI-powered full-stack dashboard that predicts vehicle maintenance needs based
 
 ---
 ## How It Works
-1. Data Collection
-Inputs are gathered from simulated or real-world sources, including:
+1. **Data Collection**
+   - Inputs are gathered from simulated or real-world sources, including:
 Vehicle usage data (distance, duration, load)
-Environmental conditions via the OpenWeatherMap API (temperature, humidity, weather type)
+   - Environmental conditions via the OpenWeatherMap API (temperature, humidity, weather type)
 Terrain classification (e.g., hilly, urban, off-road)
-2. Model Training
-A Random Forest model is trained on this dataset to predict:
+2. **Model Training**
+   - A Random Forest model is trained on this dataset to predict:
 Maintenance risk score
-Estimated time-to-service
+   - Estimated time-to-service
 The model captures correlations between environmental stress and mechanical degradation for smarter planning.
-3. Prediction Pipeline
-When a user logs new trip data or weather changes:
+3. **Prediction Pipeline**
+   - When a user logs new trip data or weather changes:
 The backend processes the input through the trained model.
-Maintenance predictions and risk scores are generated.
+   - Maintenance predictions and risk scores are generated.
 These predictions are served through secure backend APIs to the dashboard.
-4. Interactive Dashboard
-Built using React + Vite, the UI features:
-User Authentication: Secure login/logout per user or fleet admin.
-Vehicle Overview: View current condition, service risk, and prediction summary.
-Maintenance History: Timeline view of past services and predicted needs.
-Visual Analytics: Risk heatmaps, condition curves, and comparative charts.
-5. Fleet Management Extensions (Planned/Modular)
-Admins can manage multiple vehicles in a unified view.
-Aggregate maintenance trends across the fleet.
-Prioritize servicing based on urgency, usage patterns, and shared routes.
-6. AI Chatbot Integration (Planned)
-An intelligent assistant for:
-Answering vehicle-specific questions: “When is my next service?”
-Explaining model predictions: “Why is the risk score high?”
-Offering maintenance tips based on driving conditions.
-Future support for voice input and multilingual interaction.
+4. **Interactive Dashboard**
+   - Built using React + Vite, the UI features:
+     - User Authentication: Secure login/logout per user or fleet admin.
+     - Vehicle Overview: View current condition, service risk, and prediction summary.
+     - Maintenance History: Timeline view of past services and predicted needs.
+     - Visual Analytics: Risk heatmaps, condition curves, and comparative charts.
+5. **Fleet Management Extensions (Planned/Modular)**
+   - Admins can manage multiple vehicles in a unified view.
+   - Aggregate maintenance trends across the fleet.
+   - Prioritize servicing based on urgency, usage patterns, and shared routes.
+6. **AI Chatbot Integration (Planned)**
+   - An intelligent assistant for:
+     - Answering vehicle-specific questions: “When is my next service?”
+     - Explaining model predictions: “Why is the risk score high?”
+     - Offering maintenance tips based on driving conditions.
+     - Future support for voice input and multilingual interaction.
 
 
 
