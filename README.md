@@ -22,6 +22,7 @@ An AI-powered full-stack dashboard that predicts vehicle maintenance needs based
 ## Tech Stack
 
 | Layer | Tools |
+|------|-------|
 | Machine Learning | Python, Pandas, Scikit-learn, Random Forest |
 | Backend | Python, Flask |
 | Frontend | React.js, Vite, JavaScript |
